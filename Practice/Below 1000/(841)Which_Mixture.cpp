@@ -1,24 +1,14 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
-    int t;
+    int t,a,b;
     cin>>t;
     while(t--)
-    // for(int i=0;i<t;i++)
     {
-        int a,b;
         cin>>a>>b;
-        if(a>0 && b>0)
-        {
-            cout<<"Solution"<<endl;
-        }
-        else if(b==0)
-        {
-            cout<<"Solid"<<endl;
-        }
-        else if(a==0)
-            cout<<"Liquid"<<endl;
+        string c;
+        c = (((a>0) && (b>0)) ? "Solution" :(a==0) ? "Liquid":"Solid");
+        cout<<c<<endl;
     }
-    return 0;
 }
