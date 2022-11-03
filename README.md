@@ -7,4 +7,4 @@ Followed by Contestcode
 For Example:  AIRHOCKEY - START44.
 
 AIRHOCKEY is ProblemCode,
-Whereas, START44 is Contest code in which contest this problem was conducted.
+Whereas, START44 is Contest code in which contest this problem was conducted
