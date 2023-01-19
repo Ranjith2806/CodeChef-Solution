@@ -15,3 +15,21 @@ class Codechef
         }
     }
 }
+
+
+C++ Solution
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int test;
+	cin>>test;
+	while(test--)
+	{
+	    int a,b,c,d;
+	    cin>>a>>b;
+	    cout<<((a/10)*b)<<endl;
+	}
+	return 0;
+}
